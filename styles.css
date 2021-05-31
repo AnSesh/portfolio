@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Poppins&display=swap");
+@import url("font-family: 'Playfair Display', serif;");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+}
+.offset:before {
+  display: block;
+  content: "";
+  height: 6rem;
+}
+
+.journ {
+  background: #abc29b;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-size: 14 px;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  background: rgba(0, 0, 0, 0.6) !important;
+  padding: 20px 0;
+}
+.navbar-dark.navbar-nav.nav-link {
+  color: #fff;
+  padding-left: 20px;
+}
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1ebba3;
+}
+.heading-content {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.heading-content h1 {
+  font-size: 4em;
+  font-weight: bolder;
+  color: #fff;
+  font-family: "Playfair Displat", serif;
+  /* opacity: 0;
+  transition: opacity 1300ms; */
+}
+/* .heading-content h1:nth-child(1) {
+  transition-delay: 50ms;
+}
+.heading-content h1:nth-child(2) {
+  transition-delay: 60ms;
+}
+.heading-content h1:nth-child(3) {
+  transition-delay: 70ms;
+}
+.heading-content h1:nth-child(4) {
+  transition-delay: 80ms;
+}
+.heading-content h1:nth-child(5) {
+  transition-delay: 90ms;
+}
+.heading-content h1:nth-child(6) {
+  transition-delay: 100ms;
+}
+.heading-content h1:nth-child(7) {
+  transition-delay: 110ms;
+}
+.heading-content h1:nth-child(8) {
+  transition-delay: 120ms;
+}
+.heading-content h1:nth-child(9) {
+  transition-delay: 130ms;
+}
+.heading-content h1:nth-child(10) {
+  transition-delay: 140ms;
+}
+.heading-content h1:nth-child(11) {
+  transition-delay: 150ms;
+}
+.heading-content h1:nth-child(12) {
+  transition-delay: 160ms;
+}
+.heading-content h1:nth-child(13) {
+  transition-delay: 170ms;
+}
+.heading-content h1:nth-child(14) {
+  transition-delay: 180ms;
+}
+.heading-content h1:nth-child(15) {
+  transition-delay: 190ms;
+}
+.heading-content:hover h1 {
+  opacity: 1;
+} */
+/*--------------------------------Newsletter Start------------------------------------*/
+
+.sec1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to right top, #e53935, #e35d5b);
+}
+.sec1 h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 50px;
+}
+.sec1 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+@media screen and (max-width: 767px) {
+  .navbar {
+    letter-spacing: 0.1rem;
+    padding: 10px 0;
+  }
+  .heading-content h5 {
+    font-size: 3em;
+  }
+  .heading-content h1 {
+    font-size: 3em;
+  }
+  .heading-content p {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 479px) {
+  .navbar {
+    letter-spacing: 0.1rem;
+    padding: 7px 0;
+  }
+  .heading-content h5 {
+    font-size: 2em;
+  }
+  .heading-content h1 {
+    font-size: 2em;
+  }
+  .heading-content p {
+    font-size: 0.7em;
+  }
+  #contact .post-heading h3 {
+    font-size: 2em;
+  }
+}
+
+.main-bg {
+  background-image: url("/images/DSC_1270.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
