@@ -45,58 +45,104 @@ body {
   font-size: 4em;
   font-weight: bolder;
   color: #fff;
-  font-family: "Playfair Displat", serif;
-  /* opacity: 0;
-  transition: opacity 1300ms; */
+  width: 100%;
+  margin: auto;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
 }
-/* .heading-content h1:nth-child(1) {
-  transition-delay: 50ms;
+.animate {
+  font-size: 50px;
+  margin: 100px 0 0;
 }
-.heading-content h1:nth-child(2) {
-  transition-delay: 60ms;
+.animate span {
+  display: inline-block;
 }
-.heading-content h1:nth-child(3) {
-  transition-delay: 70ms;
+.animate span:nth-of-type(2) {
+  animation-delay: 0.05s;
 }
-.heading-content h1:nth-child(4) {
-  transition-delay: 80ms;
+.animate span:nth-of-type(3) {
+  animation-delay: 0.1s;
 }
-.heading-content h1:nth-child(5) {
-  transition-delay: 90ms;
+.animate span:nth-of-type(4) {
+  animation-delay: 0.15s;
 }
-.heading-content h1:nth-child(6) {
-  transition-delay: 100ms;
+.animate span:nth-of-type(5) {
+  animation-delay: 0.2s;
 }
-.heading-content h1:nth-child(7) {
-  transition-delay: 110ms;
+.animate span:nth-of-type(6) {
+  animation-delay: 0.25s;
 }
-.heading-content h1:nth-child(8) {
-  transition-delay: 120ms;
+.animate span:nth-of-type(7) {
+  animation-delay: 0.3s;
 }
-.heading-content h1:nth-child(9) {
-  transition-delay: 130ms;
+.animate span:nth-of-type(8) {
+  animation-delay: 0.35s;
 }
-.heading-content h1:nth-child(10) {
-  transition-delay: 140ms;
+.animate span:nth-of-type(9) {
+  animation-delay: 0.4s;
 }
-.heading-content h1:nth-child(11) {
-  transition-delay: 150ms;
+.animate span:nth-of-type(10) {
+  animation-delay: 0.45s;
 }
-.heading-content h1:nth-child(12) {
-  transition-delay: 160ms;
+.animate span:nth-of-type(11) {
+  animation-delay: 0.5s;
 }
-.heading-content h1:nth-child(13) {
-  transition-delay: 170ms;
+.animate span:nth-of-type(12) {
+  animation-delay: 0.55s;
 }
-.heading-content h1:nth-child(14) {
-  transition-delay: 180ms;
+.animate span:nth-of-type(13) {
+  animation-delay: 0.6s;
 }
-.heading-content h1:nth-child(15) {
-  transition-delay: 190ms;
+.animate span:nth-of-type(14) {
+  animation-delay: 0.65s;
 }
-.heading-content:hover h1 {
-  opacity: 1;
-} */
+.animate span:nth-of-type(15) {
+  animation-delay: 0.7s;
+}
+.animate span:nth-of-type(16) {
+  animation-delay: 0.75s;
+}
+.animate span:nth-of-type(17) {
+  animation-delay: 0.8s;
+}
+.animate span:nth-of-type(18) {
+  animation-delay: 0.85s;
+}
+.animate span:nth-of-type(19) {
+  animation-delay: 0.9s;
+}
+.animate span:nth-of-type(20) {
+  animation-delay: 0.95s;
+}
+.seven span {
+  color: blue;
+  opacity: 0;
+  transform: translate(-150px, 0) scale(0.3);
+  animation: leftRight 0.5s forwards;
+}
+
+@keyframes leftRight {
+  40% {
+    transform: translate(50px, 0) scale(0.7);
+    opacity: 1;
+    color: #348c04;
+  }
+
+  60% {
+    color: #0f40ba;
+  }
+
+  80% {
+    transform: translate(0) scale(2);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0) scale(1);
+    opacity: 1;
+  }
+}
 /*--------------------------------Newsletter Start------------------------------------*/
 
 .sec1 {
