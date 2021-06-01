@@ -152,7 +152,7 @@ body {
 }
 
 .main-bg {
-  background-image: url("/images/anirudh.jpg");
+  background-image: url("images/anirudh.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
